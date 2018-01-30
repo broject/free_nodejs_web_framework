@@ -1,14 +1,14 @@
 # free nodejs web framework - for developers
 
 Requirements: 
-- **Any OS**_
-- **NodeJS** version 7.x or + _
-- **npm install** package.json _
+- **Any OS**
+- **NodeJS** version 7.x or +
+- **npm install** package.json
 
 Ability: 
-- **Configuration for system module selection**_
-- **Database context for oracle, mysql, mssql**_
-- **Session for Redis, DB, File**_
-- **API, ADMIN routing and more response types**_
-- **JADE web templates and you can choose more**_
-- ****_
+- **Configuration for system module selection**
+- **Database context for oracle, mysql, mssql**
+- **Session for Redis, DB, File**
+- **API, ADMIN routing and more response types**
+- **JADE web templates and you can choose more**
+- **chat module supported**
