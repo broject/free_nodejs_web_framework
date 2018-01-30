@@ -8,7 +8,8 @@ Requirements:
 Ability: 
 - **Configuration for system module selection**
 - **Database context for oracle, mysql, mssql**
-- **Session for Redis, DB, File**
+- **Session for Redis, Database, File**
 - **API, ADMIN routing and more response types**
 - **JADE web templates and you can choose more**
+- **Cache for Redis server, memory-cache**
 - **chat module supported**
