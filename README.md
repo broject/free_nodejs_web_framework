@@ -1,5 +1,5 @@
 # free nodejs web framework - for developers
-contact: http://hiimeloyun@gmail.com
+contact: http://boroog@gmail.com
 
 Requirements: 
 - **Any OS**
@@ -18,4 +18,4 @@ Ability:
 - **SASS and js minify integrated using gulpfile**
 - **Many public/themes/design folder possible**
 - **Many views/admin or module/home.jade possible**
-- **default data generate or maybe plugin installation possible**
+- **default data generation or maybe plugin installation possible**
