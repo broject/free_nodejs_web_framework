@@ -12,4 +12,5 @@ Ability:
 - **API, ADMIN routing and more response types**
 - **JADE web templates and you can choose more**
 - **Cache for Redis server, memory-cache**
-- **chat module supported**
+- **Chat module supported**
+- **Some security resolved**
