@@ -1,0 +1,25 @@
+extends ../shared/site
+block variables
+    -var body_class = 'i-am-the-home-page'
+block append head
+    script(src='/#{loader.theme_static("js/scripts123.js")}')
+block title
+    title #{model.title}
+block content
+    h1 Post's Header
+    p Here's a list of all blog posts
+mixin list-item
+block footer
+    //block comment
+    h1 hello world
+    //-invisible block comment
+    h2 how are you?
+    mixin header(title)
+        div.container&attributes(attributes)
+            h3.sectionHeader #{title}
+            div.content(style="display: block")
+                block
+    +header('footer')(style="text-align:center; display: block; width: 500px;")
+        p this is a footers paragraph
+    -var model_list = model.list;
+    include ./partial/list

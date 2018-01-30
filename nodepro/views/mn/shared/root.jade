@@ -1,0 +1,14 @@
+block variables
+doctype html
+html(lang="en")
+    head
+        block head
+            block title
+                title Default Title
+            meta(name="viewport", content="width=device-width, initial-scale=1.0")
+            link(href='#{loader.theme_favicon("default")}', rel='icon', type='image/png')
+            link(href='#{loader.theme_uri("css/styles.css")}', rel='stylesheet', type='text/css')
+            script(src='#{loader.theme_uri("js/sjs.js")}')
+    body
+        #body-wrapper
+            block body

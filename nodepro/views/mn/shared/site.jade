@@ -1,0 +1,10 @@
+extends root
+block variables
+    block vars
+block body
+    #content-wrapper
+        block content
+    #footer-wrapper
+        block footer
+            - var imageName = new Date().getFullYear();
+            span Copyright #{imageName} <br>

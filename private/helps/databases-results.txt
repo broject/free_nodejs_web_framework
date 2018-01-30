@@ -1,0 +1,82 @@
+
+D:\Projects\NodeCMS\NodeProCMS>node app.js
+ProcId : 6708 is listening to all incoming requests...
+ProcId : 6824 is listening to all incoming requests...
+ProcId : 6764 is listening to all incoming requests...
+ProcId : 6676 is listening to all incoming requests...
+{ title: 'login title',
+  users:
+   [ { username: 'root', password: 'password' },
+     { username: 'admin', password: 'password' },
+     { username: 'boroo', password: 'password' } ],
+  list: undefined }
+{ title: 'login title',
+  users:
+   [ { username: 'root', password: 'password' },
+     { username: 'admin', password: 'password' },
+     { username: 'boroo', password: 'password' } ],
+  list: undefined }
+{ title: 'login title',
+  users:
+   [ { username: 'root', password: 'password' },
+     { username: 'admin', password: 'password' },
+     { username: 'boroo', password: 'password' } ],
+  list:
+   [ RowDataPacket {
+       id: 1,
+       name: 'john',
+       day: 2017-03-15T06:03:30.000Z,
+       created: 2017-03-15T06:04:13.000Z },
+     RowDataPacket {
+       id: 2,
+       name: 'wick',
+       day: 2017-03-15T07:30:45.000Z,
+       created: 2017-03-15T06:04:13.000Z } ] }
+^C
+D:\Projects\NodeCMS\NodeProCMS>node app.js
+ProcId : 3656 is listening to all incoming requests...
+ProcId : 6192 is listening to all incoming requests...
+ProcId : 7148 is listening to all incoming requests...
+ProcId : 3460 is listening to all incoming requests...
+{ title: 'login title',
+  users:
+   [ { username: 'root', password: 'password' },
+     { username: 'admin', password: 'password' },
+     { username: 'boroo', password: 'password' } ],
+  list:
+   [ { name: 'ID' },
+     { name: 'NAME' },
+     { name: 'DESCR' },
+     { name: 'ISDELETED' },
+     { name: 'RCDATE' },
+     { name: 'RCTIME' } ] }
+{ title: 'login title',
+  users:
+   [ { username: 'root', password: 'password' },
+     { username: 'admin', password: 'password' },
+     { username: 'boroo', password: 'password' } ],
+  list:
+   { rows: [ [Object], [Object], [Object] ],
+     resultSet: undefined,
+     outBinds: undefined,
+     rowsAffected: undefined,
+     metaData: [ [Object], [Object], [Object], [Object], [Object], [Object] ] }
+}
+[ [ '790E218A77414957AB3531D704028DC4',
+    '?????',
+    '?????',
+    0,
+    2017-03-07T04:11:05.000Z,
+    2017-03-06T19:10:12.283Z ],
+  [ '8E78E5075F5C4E19BB2AE71273F97EF0',
+    '???',
+    '???',
+    0,
+    2017-03-07T04:12:01.000Z,
+    2017-03-06T20:01:21.279Z ],
+  [ 'AE26202F287B4201BD0594A9CD96F761',
+    'my name',
+    '????? ???????',
+    0,
+    2017-03-07T07:17:19.000Z,
+    2017-03-06T20:34:43.329Z ] ]

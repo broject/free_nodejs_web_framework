@@ -1,0 +1,8 @@
+div Хэрэглэгчид:
+-var users = (model.users !== undefined ? model.users : []);
+-if(users.length > 0)
+    ul
+        mixin html_li(ndx, item)
+            li(id="user-#{ndx}")= item.username
+        -each item, i in users
+            +html_li(i, item)

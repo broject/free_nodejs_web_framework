@@ -1,0 +1,12 @@
+extends ../shared/site
+block vars
+block content
+    include ./partial/list
+    <br>
+    -var user = (model.user === undefined || model.user === null ? {} : model.user);
+    form(method="post" action="/#{router.action('auth')}")
+        input(type="hidden" name="np_token" value="#{router.nptoken()}")
+        input(type="text" name="username" style="width:500px" value="#{user.username || 'empty'}")
+        input(type="password" name="password")
+        input(type="submit" value="Submit")
+    
