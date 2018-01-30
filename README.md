@@ -15,3 +15,6 @@ Ability:
 - **Chat module supported**
 - **Some security resolved**
 - **SASS and js minify integrated using gulpfile**
+- **Many public/themes/design folder possible**
+- **Many views/admin or module/home.jade possible**
+- **default data generate or maybe plugin installation possible**
