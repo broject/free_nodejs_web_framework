@@ -1,6 +1,4 @@
 # free nodejs web framework - for developers
-goal is you can fix all the code
-
 contact: http://hiimeloyun@gmail.com
 
 Requirements: 
