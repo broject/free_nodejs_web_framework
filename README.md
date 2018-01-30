@@ -14,3 +14,4 @@ Ability:
 - **Cache for Redis server, memory-cache**
 - **Chat module supported**
 - **Some security resolved**
+- **SASS and js minify integrated using gulpfile**
