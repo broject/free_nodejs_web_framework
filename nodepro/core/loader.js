@@ -121,6 +121,11 @@ exports.instance = function () {
             if (single !== true) {
                 delete require.cache[require.resolve(fpath)];
             }
+            try {
+                var v = require(fpath);
+            } catch (err) {
+                console.log(err.message);
+            }
             return require(fpath);
         };
         this.loadJson = function (jsonfile, dir) {

@@ -34,3 +34,5 @@ class auth extends controller {
 }
 global.site_controller = site;
 global.auth_controller = auth;
+module.exports.site = site;
+module.exports.auth = auth;
