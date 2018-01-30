@@ -1,4 +1,4 @@
-# free nodejs web framework
+# free nodejs web framework - for developers
 
 Requirements: 
 - **Any OS**_
